@@ -8,11 +8,11 @@ document.body.style.backgroundColor = "#f4f4";
 const bodyColor = document.querySelector('.btnbody').addEventListener('click', () => {
     if(document.body.style.backgroundColor === 'red'){
         document.body.style.backgroundColor = 'blue';
-        document.body.style.color = '#fff';
+        document.body.style.color = '#fdf';
 
     } else {
         document.body.style.backgroundColor = 'red';
-        document.body.style.color = 'yellow';
+        document.body.style.color = '#fff';
 
     }
 })
