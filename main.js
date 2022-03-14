@@ -8,7 +8,7 @@ document.body.style.backgroundColor = "#f4f4";
 const bodyColor = document.querySelector('.btnbody').addEventListener('click', () => {
     if(document.body.style.backgroundColor === 'red'){
         document.body.style.backgroundColor = 'blue';
-        document.body.style.color = '#fdf';
+        document.body.style.color = 'grey';
 
     } else {
         document.body.style.backgroundColor = 'red';
